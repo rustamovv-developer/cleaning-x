@@ -1,0 +1,131 @@
+.contact {
+  padding: 130px;
+}
+.contact__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact__left__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  color: #211f54;
+  margin-bottom: 32px;
+}
+.contact__left__text {
+  max-width: 484px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6e7191;
+  margin-bottom: 32px;
+}
+.contact__left__exam {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 86px;
+}
+.contact__left__exam__icon {
+  padding: 18px;
+  border-radius: 50%;
+  border: 1px solid #dcddeb;
+  color: #0075ff;
+  font-size: 34px;
+}
+.contact__left__exam__text {
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 4px;
+  color: #6e7191;
+}
+.contact__left__exam__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #211f54;
+}
+.contact__left__h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #211f54;
+  margin-bottom: 10px;
+}
+.contact__left__button {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #211f54;
+}
+.contact__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+.contact__right__card {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.contact__right__input {
+  width: 260px;
+  height: 114px;
+  font-weight: 400;
+  color: #211f54;
+  font-size: 18px;
+  line-height: 30px;
+}
+.contact__right__input::placeholder {
+  font-weight: 400;
+  color: #211f54;
+  font-size: 18px;
+}
+.contact__right__textarea {
+  width: 100%;
+  height: 200px;
+  font-weight: 400;
+  color: #211f54;
+  font-size: 18px;
+  line-height: 30px;
+}
+.contact__right__textarea::placeholder {
+  font-weight: 400;
+  color: #211f54;
+  font-size: 18px;
+}
+.contact__right__btn {
+  background-color: #0075ff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding: 26px 20px;
+  border-radius: 14px;
+}
+@media (max-width: 1400px) {
+  .contact__info {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  .contact {
+    padding: 100px 10px;
+  }
+  .contact__right__card {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .contact__right__input {
+    width: 100%;
+  }
+}
+@media (max-width: 380px) {
+  .contact__left__exam__icon {
+    display: none;
+  }
+}
